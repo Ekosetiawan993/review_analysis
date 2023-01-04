@@ -2,7 +2,7 @@ import joblib
 from preprocessing_data import preprocessed_data
 
 mlp_model_path = r'model_file/MLP_TF_Model.sav'
-rfc_model_path = r'model_file/RANDOM_FOREST_TF_Model.sav'
+rfc_model_path = r'model_file/Random_Forest_TF_Model.sav'
 
 mlp_model = joblib.load(mlp_model_path)
 rfc_model = joblib.load(rfc_model_path)
