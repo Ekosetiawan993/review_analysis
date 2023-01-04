@@ -3,7 +3,7 @@ from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
 
-stopwords_path = r'data/stopword_indonesia.txt'
+stopwords_path = r'data_stopwords/stopword_indonesia.txt'
 
 
 def load_stopwords():
